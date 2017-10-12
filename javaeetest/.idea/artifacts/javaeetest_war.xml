@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="javaeetest:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="javaeetest.war">
+      <element id="artifact" artifact-name="javaeetest:war exploded" />
+    </root>
+  </artifact>
+</component>
