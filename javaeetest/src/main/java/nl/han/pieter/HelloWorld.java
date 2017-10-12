@@ -9,7 +9,6 @@ public class HelloWorld {
     private String username = "pieter";
     private String password = "test123";
 
-
     @Path("hello")
     @GET
     public String getMessage() {
