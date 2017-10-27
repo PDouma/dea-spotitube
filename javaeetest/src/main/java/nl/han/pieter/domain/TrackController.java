@@ -1,19 +1,11 @@
-package nl.han.pieter.presentation;
+package nl.han.pieter.domain;
 
-import javax.ws.rs.*; //TODO remove usage of *
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-@Path("/user")
-public class UserController {
-    private String username = "pieter";
-    private String password = "test123";
-
-    @Path("/test")
-    @GET
-    public String getMessage() {
-        return "Mandatory hello world";
-    }
+@Path("/tracks")
+public class TrackController {
 
     @GET
     @Path("{id}")
